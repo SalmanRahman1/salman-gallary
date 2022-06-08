@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+  height: 100px;
+}
+.header h1{
+    text-indent: 85px;
+    padding: 20px;
+}
+.header h1:hover{
+    text-align: flex;
+    background-color: rgb(221, 221, 221);
+    color: azure;
+    box-shadow: 5px 5px 10px solid lightblue;
+
+}
+.system-style{
+    padding: 20px;
+
+}
+.system-style:hover{
+    text-align: flex;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 5px 5px 10px solid lightblue;
+}
+.containar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.containar img{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+}
+.containar image:hover{
+    align-items: flex;
+    background-color: beige;
+    box-shadow: 2px 2px 5px solid lightcoral;
+}
